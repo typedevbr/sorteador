@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorteador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Sorteador</h1>
+  <div class="content">
+    <div>
+      <div class="input-group">
+        <label for="total">Total de Resultados</label>
+        <br />
+        <input type="number" name="total" id="total" value="1">
+      </div>
+      <div class="input-group">
+        <label for="min">Menor Valor</label>
+        <br />
+        <input type="number" name="min" id="min" value="1">
+      </div>
+      <div class="input-group">
+        <label for="max">Maior Valor</label>
+        <br />
+        <input type="number" name="max" id="max" value="10">
+      </div>
+      <button onclick="sortear()">Sortear</button>
+    </div>
+    <div class="results-container hide">
+      <h2>Resultado</h2>
+      <div id="results">
+
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

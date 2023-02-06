@@ -1,0 +1,10 @@
+- Título
+- Shields
+- Imagem/Gif
+- Link
+- Como utilizar
+- Descrição
+- Como contribuir
+- Como fazer o clone/setup
+- Quais as tecnologias utilizadas
+- Licença
